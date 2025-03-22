@@ -1,0 +1,61 @@
+.card {
+    width: 100%;
+    max-width: 685px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+
+    @media (max-width: 968px) {
+        min-height: 650px;
+    }
+}
+
+.card .imageContainer {
+    width: 100%;
+    height: 450px !important;
+    flex-shrink: 0;
+
+    @media (max-width: 968px) {
+        height: 230px !important;
+    }
+}
+
+.card .imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .video {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+
+    @media (max-width: 968px) {
+        height: 230px;
+    }
+}
+
+.card .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+
+.card .content .link {
+    width: fit-content;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 2px solid #272727;
+    backdrop-filter: blur(8.5px);
+    --webkit-backdrop-filter: blur(8.5px);
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
