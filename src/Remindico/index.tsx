@@ -17,7 +17,6 @@ export function MainPage() {
       <FormSection />
       <Faq />
       <IntroducingRemindico />
-      {/* <ProductsSection /> */}
     </main>
   );
 }
