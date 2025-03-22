@@ -5,7 +5,7 @@ import outlineIcon from "../../icons/outlineIcon.svg";
 // import logoAnimation from "../../videos/logo_animation_remindico.json";
 import logoAnimation from "../../videos/logo-animation.json";
 import styles from "./HomeSection.module.scss";
-// import { Video } from "./Video";
+import { Video } from "./Video";
 import { scrollToCalendar, scrollToForm } from "../../lib/scrollTo";
 import Lottie from "lottie-react";
 
@@ -18,18 +18,8 @@ export function HomeSection() {
       </h2>
 
       <div style={{ display: "flex", alignItems: "center" }}>
-        <Lottie
-          className={styles.animationFrame}
-          animationData={logoAnimation}
-          autoplay
-          initialSegment={[8, 55]}
-        />
-        <h1
-          style={{ fontSize: "60px", fontWeight: "600", marginBottom: "10px" }}
-        >
-          {" "}
-          MediCall
-        </h1>
+        <Lottie className={styles.animationFrame} animationData={logoAnimation} autoplay initialSegment={[8, 55]} />
+        <h1 style={{ fontSize: "60px", fontWeight: "600", marginBottom: "10px" }}> MediCall</h1>
       </div>
       {/* <Lottie
         className={styles.animationFrame}
@@ -43,11 +33,10 @@ export function HomeSection() {
         <strong>
           to handle <br /> routine calls
         </strong>{" "}
-        to your patients. I can call to{" "}
-        <span className={styles.greenBg}>confirm appointment</span>
+        to your patients. I can call to <span className={styles.greenBg}>confirm appointment</span>
         , <br />
-        <span className={styles.purpleBg}>reschedule</span> or{" "}
-        <span className={styles.redBg}>cancel visits</span> with natural{" "}
+        <span className={styles.purpleBg}>reschedule</span> or <span className={styles.redBg}>cancel visits</span> with
+        natural{" "}
         <strong>
           <i>human-like</i> conversation{" "}
         </strong>
@@ -65,13 +54,12 @@ export function HomeSection() {
         </button>
       </div>
 
-      {/* <Video /> */}
+      <Video />
 
       <p className={styles.description}>
-        With <strong>MediCall</strong>, your patients will{" "}
-        <strong>never miss an appointment</strong> <br /> again, and you'll{" "}
-        <span className={styles.blue}>save</span> on the{" "}
-        <span className={styles.blue}>costs</span> of human work.
+        With <strong>MediCall</strong>, your patients will <strong>never miss an appointment</strong> <br /> again, and
+        you'll <span className={styles.blue}>save</span> on the <span className={styles.blue}>costs</span> of human
+        work.
       </p>
 
       <div className={styles.helloContainer}>
@@ -79,12 +67,7 @@ export function HomeSection() {
         <p className={styles.helloText}>
           Say <strong>Hello</strong> <br /> to MediCall!
         </p>
-        <img
-          src={arrowDownIcon}
-          alt="Arrow down icon"
-          className={styles.arrowDown}
-          id="medicall-calendar"
-        />
+        <img src={arrowDownIcon} alt="Arrow down icon" className={styles.arrowDown} id="medicall-calendar" />
       </div>
     </section>
   );
