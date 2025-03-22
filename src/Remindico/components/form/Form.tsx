@@ -3,43 +3,45 @@ import { useState } from "react";
 import clsx from "clsx";
 
 export function Form() {
-  const [isSubmitting] = useState(false);
-  const [result] = useState<"success" | "error" | undefined>(undefined);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [result, setResult] = useState<"success" | "error" | undefined>(
+    undefined
+  );
 
   async function submitHandler(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    // if (isSubmitting) return;
+    if (isSubmitting) return;
 
-    // const formData = new FormData(event.currentTarget);
+    const formData = new FormData(event.currentTarget);
 
-    // const name = formData.get("name");
-    // const phone = formData.get("phone");
-    // const email = formData.get("email");
+    const name = formData.get("name");
+    const phone = formData.get("phone");
+    const email = formData.get("email");
 
-    // const dataToSend = {
-    //   name,
-    //   phone,
-    //   email,
-    // };
+    const dataToSend = {
+      name,
+      phone,
+      email,
+    };
 
-    // try {
-    //   setIsSubmitting(true);
-    //   setResult(undefined);
-    //   await fetch("https://backend-remindico-dev.aux-estimato.xyz/form", {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     body: JSON.stringify(dataToSend),
-    //   });
-    //   setResult("success");
-    // } catch (error) {
-    //   console.log(error);
-    //   setResult("error");
-    // } finally {
-    //   setIsSubmitting(false);
-    // }
+    try {
+      setIsSubmitting(true);
+      setResult(undefined);
+      await fetch("https://backend-remindico-dev.aux-estimato.xyz/form", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(dataToSend),
+      });
+      setResult("success");
+    } catch (error) {
+      console.log(error);
+      setResult("error");
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
