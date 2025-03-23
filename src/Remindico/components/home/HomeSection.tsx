@@ -51,7 +51,7 @@ export function HomeSection() {
         <strong>
           <i>human-like</i> conversation{" "}
         </strong>
-        & <br /> save changes to your calendar or EMR.
+        & <br /> save changes to your calendar.
       </p>
 
       <div className={styles.buttonsContainer}>

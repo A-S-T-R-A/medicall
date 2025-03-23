@@ -5,7 +5,7 @@ import chevronDown from "../../icons/chevronDown.svg";
 
 const faqs = [
   {
-    question: "How does Pingify integrate with my existing CRM or EMR system?",
+    question: "How does Pingify integrate with my existing CRM system?",
     answer: `Pingify is designed for seamless integration. Our technical team will guide you
     through the process, ensuring that all your calendars and appointment data are
     synced.`,
