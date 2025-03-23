@@ -27,7 +27,7 @@ export function FormSection() {
                 marginBottom: "5px",
               }}
             >
-              MediCall
+              Pingify
             </h1>
           </div>
           <p className={styles.subtitle}>
@@ -35,7 +35,7 @@ export function FormSection() {
             voice <br /> calling to patients with <strong>power of</strong>{" "}
             <span>AI</span>
           </p>
-          {/* <img src={image} alt="MediCall calendar" className={styles.formImg} /> */}
+          {/* <img src={image} alt="MediPingifyCall calendar" className={styles.formImg} /> */}
           <div className={styles.featureContainer}>
             <p className={styles.green}>Appointments confirmation</p>
             <p className={styles.red}>Cancelation</p>

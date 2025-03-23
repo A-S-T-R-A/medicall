@@ -5,19 +5,18 @@ import chevronDown from "../../icons/chevronDown.svg";
 
 const faqs = [
   {
-    question: "How does MediCall integrate with my existing CRM or EMR system?",
-    answer: `MediCall is designed for seamless integration. Our technical team will guide you
+    question: "How does Pingify integrate with my existing CRM or EMR system?",
+    answer: `Pingify is designed for seamless integration. Our technical team will guide you
     through the process, ensuring that all your calendars and appointment data are
     synced.`,
   },
   {
-    question:
-      "Can MediCall handle appointment modifications and cancellations?",
-    answer: `Yes, MediCall can modify dates, cancel appointments, and notify clients of any changes that need confirmation.`,
+    question: "Can Pingify handle appointment modifications and cancellations?",
+    answer: `Yes, Pingify can modify dates, cancel appointments, and notify clients of any changes that need confirmation.`,
   },
   {
-    question: "Is MediCall suitable for businesses outside of healthcare?",
-    answer: `Absolutely. Any business that deals with appointments can benefit from MediCall's capabilities.`,
+    question: "Is Pingify suitable for businesses outside of healthcare?",
+    answer: `Absolutely. Any business that deals with appointments can benefit from Pingify's capabilities.`,
   },
 ];
 

@@ -12,7 +12,7 @@ export function CalendarSection() {
 
       <p className={styles.description}>
         Embrace the <strong>magic of AI</strong> and natural conversation:{" "}
-        <br /> get an <strong>instant test call</strong> from MediCall for
+        <br /> get an <strong>instant test call</strong> from Pingify for
         appointment <br /> confirmation - try it in action!
       </p>
 

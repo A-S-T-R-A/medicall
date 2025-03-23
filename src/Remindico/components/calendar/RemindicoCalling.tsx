@@ -11,12 +11,12 @@ export function RemindicoCalling({ isOpen }: TRemindicoCallingProps) {
       <div className={styles.contentContainer}>
         <img
           src={lightMedicallIcon}
-          alt="Medicall Calling"
+          alt="Pingify Calling"
           className={styles.remindicoIcon}
         />
 
         <div className={styles.content}>
-          <p className={styles.title}>MediCall</p>
+          <p className={styles.title}>Pingify</p>
           <p className={styles.description}>is calling...</p>
         </div>
       </div>

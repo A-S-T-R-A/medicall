@@ -68,8 +68,8 @@ export function AppointmentModal({
 
           <p className={styles.description}>
             Enter your name and phone number,{" "}
-            <strong>MediCall will call you instantly</strong> to confirm
-            upcoming appointment.
+            <strong>Pingify will call you instantly</strong> to confirm upcoming
+            appointment.
           </p>
 
           <button className={styles.button} type="submit" disabled={isLoading}>
