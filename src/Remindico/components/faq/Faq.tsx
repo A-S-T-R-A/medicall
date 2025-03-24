@@ -47,9 +47,7 @@ export function Faq() {
               <div
                 key={index}
                 onClick={() => openCloseHandler(index)}
-                className={`${styles.questionContainer} ${
-                  openedQuestions.includes(index) && styles.opened
-                }`}
+                className={`${styles.questionContainer} ${openedQuestions.includes(index) && styles.opened}`}
               >
                 <div className={styles.question}>
                   <p className={styles.questionText}>{question}</p>
@@ -82,7 +80,7 @@ export function Faq() {
           </Squircle>
         </Squircle> */}
         <button className={styles.button} onClick={scrollToForm}>
-          Do you have more quastions?
+          Do you have more questions?
         </button>
       </div>
     </div>
