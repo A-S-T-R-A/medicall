@@ -1,8 +1,7 @@
 import { useRef, useState } from "react";
 import clsx from "clsx";
 import styles from "./Video.module.scss";
-import video from "../../videos/remindicoDemo.mp4";
-import poster from "../../videos/remindicoPoster.jpeg";
+import poster from "../../videos/pingifyPoster.jpeg";
 import playSmallIcon from "../../icons/playSmallIcon.svg";
 import playBigIcon from "../../icons/playBigIcon.svg";
 import roundArrow from "../../icons/roundArrow.svg";
@@ -46,7 +45,7 @@ export function Video() {
           poster={poster}
           autoPlay
         >
-          <source src={video} type="video/mp4" />
+          <source src={"/pingifyDemo.mp4"} type="video/mp4" />
         </video>
       </div>
     </div>
