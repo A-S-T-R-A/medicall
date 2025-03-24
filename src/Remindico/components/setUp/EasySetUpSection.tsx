@@ -1,9 +1,9 @@
 import styles from "./EasySetUpSection.module.scss";
 import calendarIcon from "../../icons/connectToCalendarIcon.svg";
-import reminderCallsIcon from "../..//icons/reminderCalls.svg";
-import aiCallsIcon from "../..//icons/aiCallsIcon.svg";
-import finalizeDecisionIcon from "../..//icons/finalizeDecisionIcon.svg";
-import conversationHistoryIcon from "../..//icons/conversationHistoryIcon.svg";
+import reminderCallsIcon from "../../icons/reminderCalls.svg";
+import aiCallsIcon from "../../icons/aiCallsIcon.svg";
+import finalizeDecisionIcon from "../../icons/finalizeDecisionIcon.svg";
+import conversationHistoryIcon from "../../icons/conversationHistoryIcon.svg";
 import { Card } from "./Card";
 import type { ReactNode } from "react";
 
@@ -20,7 +20,7 @@ const data: {
       </>
     ),
     description:
-      "Start by connecting your current calendar provider to MediCall. No need to change anything – MediCall will integrate into your current software setup.",
+      "Start by connecting your current calendar provider to Pingify. No need to change anything – Pingify will integrate into your current software setup.",
   },
 
   {
@@ -60,7 +60,7 @@ const data: {
       </>
     ),
     description:
-      "Review all AI interactions on the MediCall platform to ensure communication quality.",
+      "Review all AI interactions on the Pingify platform to ensure communication quality.",
   },
 ];
 
@@ -69,7 +69,7 @@ export function EasySetUpSection() {
     <section className={styles.container}>
       <h2 className={styles.title}>Easy Set Up</h2>
       <p className={styles.description}>
-        Easy steps how you will set up MediCall once. <br /> Then check and
+        Easy steps how you will set up Pingify once. <br /> Then check and
         maintain quality.
       </p>
       <div className={styles.cardsContainer}>

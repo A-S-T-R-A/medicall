@@ -117,9 +117,9 @@ export function Calendar() {
             <img
               className={styles.remindicoIcon}
               src={medicallIcon}
-              alt="MediCall"
+              alt="Pingify"
             />
-            <h2 className={styles.title}>MediCall</h2>
+            <h2 className={styles.title}>Pingify</h2>
             <img src={starsIcon} alt="Stars icon" />
             <p>AI Voice Assistant </p>
           </div>

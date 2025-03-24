@@ -9,16 +9,16 @@ export function IntroducingRemindico() {
       <div className={styles.container}>
         <div className={styles.textContainer}>
           <h2 className={styles.title}>
-            Introducing MediCall: The Ultimate AI Voice Assistant for Your
+            Introducing Pingify: The Ultimate AI Voice Assistant for Your
             Business
           </h2>
 
           <p className={styles.text}>
-            <strong>Experience a new era of efficiency with MediCall,</strong>{" "}
-            an <strong>AI Voice Assistant</strong> powered by advanced{" "}
+            <strong>Experience a new era of efficiency with Pingify,</strong> an{" "}
+            <strong>AI Voice Assistant</strong> powered by advanced{" "}
             <strong>Real-Time Voice</strong> AI technology. Designed to
             seamlessly integrate into any <strong>CRM</strong> or{" "}
-            <strong>EMR system</strong>, MediCall revolutionizes the way
+            <strong>EMR system</strong>, Pingify revolutionizes the way
             businesses manage appointments and interact with clients.
           </p>
 
@@ -28,11 +28,11 @@ export function IntroducingRemindico() {
 
           <p className={styles.text}>
             <strong>
-              MediCall is not just another Conversational AI Assistant;
+              Pingify is not just another Conversational AI Assistant;
             </strong>{" "}
             it's a comprehensive solution that can replace your front desk
             operations entirely. By leveraging the power of the
-            <strong>ChatGPT Voice Assistant</strong>, MediCall automates tasks
+            <strong>ChatGPT Voice Assistant</strong>, Pingify automates tasks
             such as:
           </p>
           <ol>
@@ -59,7 +59,7 @@ export function IntroducingRemindico() {
           </h3>
           <p className={styles.text}>
             <strong>
-              One of MediCall's standout features is its ability to integrate
+              One of Pingify's standout features is its ability to integrate
               into any existing EMR or CRM system.
             </strong>{" "}
             Our <strong>AI-Powered Voice Assistant for Business</strong> ensures
@@ -75,9 +75,9 @@ export function IntroducingRemindico() {
               fit your specific operational needs.
             </li>
             <li>
-              <strong>Developer Support:</strong> While MediCall is a product
-              and not an API, our team provides full support during the
-              integration process.
+              <strong>Developer Support:</strong> While Pingify is a product and
+              not an API, our team provides full support during the integration
+              process.
             </li>
           </ol>
 
@@ -85,7 +85,7 @@ export function IntroducingRemindico() {
             Enhance Customer Service with Natural Language Voice Assistant
           </h3>
           <p className={styles.text}>
-            <strong>MediCall utilizes Natural Language Processing</strong> to
+            <strong>Pingify utilizes Natural Language Processing</strong> to
             understand and respond to clients in a way that feels personal and
             engaging. This <strong>Advanced AI</strong> Voice Assistant ensures:
           </p>
@@ -105,11 +105,11 @@ export function IntroducingRemindico() {
           </ol>
 
           <h3 className={styles.subtitle}>
-            Why MediCall is the Best AI Voice Assistant for Customer Service
+            Why Pingify is the Best AI Voice Assistant for Customer Service
           </h3>
           <p className={styles.text}>
             <strong>
-              In a world where customer satisfaction is paramount, MediCall
+              In a world where customer satisfaction is paramount, Pingify
               stands out as the best AI voice assistant for customer service.
             </strong>{" "}
             Here's why:
@@ -137,8 +137,7 @@ export function IntroducingRemindico() {
           <p className={styles.text}>
             <strong>
               Businesses that deal with appointments—be it healthcare providers,
-              salons, or professional services—can greatly benefit from
-              MediCall:
+              salons, or professional services—can greatly benefit from Pingify:
             </strong>
           </p>
           <ol>
@@ -156,18 +155,18 @@ export function IntroducingRemindico() {
             </li>
           </ol>
 
-          <h3 className={styles.subtitle}>Get Started with MediCall Today</h3>
+          <h3 className={styles.subtitle}>Get Started with Pingify Today</h3>
           <p className={styles.text}>
             <strong>
               Ready to revolutionize your appointment management? Request a demo
             </strong>{" "}
-            of MediCall and see how easily it integrates into your EMR or CRM
+            of Pingify and see how easily it integrates into your EMR or CRM
             system.
           </p>
           <ol>
             <li>
               <strong>Quick Integration:</strong> Our team will assist you in
-              setting up MediCall with minimal disruption to your operations.
+              setting up Pingify with minimal disruption to your operations.
             </li>
             <li>
               <strong>Experience the Future:</strong> Embrace the capabilities

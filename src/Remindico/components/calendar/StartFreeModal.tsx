@@ -16,7 +16,7 @@ export function StartFreeModal({ isOpen, onCallAgain }: TStartFreeModalProps) {
           </h3>
           <p className={styles.description}>
             <strong>Imagine</strong> how many <strong>hundreds of calls</strong>{" "}
-            Medicall can automate for your business and{" "}
+            Pingify can automate for your business and{" "}
             <strong>save thousands</strong> of men hours of work, while boosting
             your confirmation rate & revenue.
           </p>

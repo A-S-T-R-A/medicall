@@ -5,7 +5,7 @@ import outlineIcon from "../../icons/outlineIcon.svg";
 // import logoAnimation from "../../videos/logo_animation_remindico.json";
 import logoAnimation from "../../videos/logo-animation.json";
 import styles from "./HomeSection.module.scss";
-// import { Video } from "./Video";
+import { Video } from "./Video";
 import { scrollToCalendar, scrollToForm } from "../../lib/scrollTo";
 import Lottie from "lottie-react";
 
@@ -28,7 +28,7 @@ export function HomeSection() {
           style={{ fontSize: "60px", fontWeight: "600", marginBottom: "10px" }}
         >
           {" "}
-          MediCall
+          Pingify
         </h1>
       </div>
       {/* <Lottie
@@ -39,7 +39,7 @@ export function HomeSection() {
       /> */}
 
       <p className={styles.presentation}>
-        Hello, I'm MediCall, your <i>AI voice assistant</i> designed{" "}
+        Hello, I'm Pingify, your <i>AI voice assistant</i> designed{" "}
         <strong>
           to handle <br /> routine calls
         </strong>{" "}
@@ -51,7 +51,7 @@ export function HomeSection() {
         <strong>
           <i>human-like</i> conversation{" "}
         </strong>
-        & <br /> save changes to your calendar or EMR.
+        & <br /> save changes to your calendar.
       </p>
 
       <div className={styles.buttonsContainer}>
@@ -65,10 +65,10 @@ export function HomeSection() {
         </button>
       </div>
 
-      {/* <Video /> */}
+      <Video />
 
       <p className={styles.description}>
-        With <strong>MediCall</strong>, your patients will{" "}
+        With <strong>Pingify</strong>, your patients will{" "}
         <strong>never miss an appointment</strong> <br /> again, and you'll{" "}
         <span className={styles.blue}>save</span> on the{" "}
         <span className={styles.blue}>costs</span> of human work.
@@ -77,7 +77,7 @@ export function HomeSection() {
       <div className={styles.helloContainer}>
         <img src={outlineIcon} alt="icon" className={styles.outlineIcon} />
         <p className={styles.helloText}>
-          Say <strong>Hello</strong> <br /> to MediCall!
+          Say <strong>Hello</strong> <br /> to Pingify!
         </p>
         <img
           src={arrowDownIcon}
