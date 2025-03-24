@@ -17,9 +17,9 @@ export function IntroducingRemindico() {
             <strong>Experience a new era of efficiency with Pingify,</strong> an{" "}
             <strong>AI Voice Assistant</strong> powered by advanced{" "}
             <strong>Real-Time Voice</strong> AI technology. Designed to
-            seamlessly integrate into any <strong>CRM</strong> or{" "}
-            <strong>EMR system</strong>, Pingify revolutionizes the way
-            businesses manage appointments and interact with clients.
+            seamlessly integrate into any <strong>CRM system</strong>, Pingify
+            revolutionizes the way businesses manage appointments and interact
+            with clients.
           </p>
 
           <h3 className={styles.subtitle}>
@@ -60,7 +60,7 @@ export function IntroducingRemindico() {
           <p className={styles.text}>
             <strong>
               One of Pingify's standout features is its ability to integrate
-              into any existing EMR or CRM system.
+              into any CRM system.
             </strong>{" "}
             Our <strong>AI-Powered Voice Assistant for Business</strong> ensures
             a smooth setup process:
@@ -160,8 +160,7 @@ export function IntroducingRemindico() {
             <strong>
               Ready to revolutionize your appointment management? Request a demo
             </strong>{" "}
-            of Pingify and see how easily it integrates into your EMR or CRM
-            system.
+            of Pingify and see how easily it integrates into your CRM system.
           </p>
           <ol>
             <li>
