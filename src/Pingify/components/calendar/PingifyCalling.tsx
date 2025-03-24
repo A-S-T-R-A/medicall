@@ -1,11 +1,11 @@
 import lightMedicallIcon from "../../icons/lightMedicallIcon.svg";
-import styles from "./RemindicoCalling.module.scss";
+import styles from "./PingifyCalling.module.scss";
 
-type TRemindicoCallingProps = {
+type TPingifyCallingProps = {
   isOpen: boolean;
 };
 
-export function RemindicoCalling({ isOpen }: TRemindicoCallingProps) {
+export function PingifyCalling({ isOpen }: TPingifyCallingProps) {
   return (
     <div className={`${styles.container} ${isOpen && styles.open}`}>
       <div className={styles.contentContainer}>

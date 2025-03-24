@@ -5,7 +5,6 @@ import lockPersonIcon from "../../icons/lockPersonIcon.svg";
 import lockIcon from "../../icons/lockIcon.svg";
 // import image from "../../images/iphoneImg.webp";
 import bigArrow from "../../icons/bigArrowIcon.svg";
-// import logoAnimation from "../../videos/logo_animation_remindico.json";
 import logoAnimation from "../../videos/logo-animation.json";
 
 export function FormSection() {

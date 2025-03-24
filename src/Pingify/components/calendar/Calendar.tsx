@@ -18,7 +18,7 @@ import "./Calendar.scss";
 import { useState, type CSSProperties } from "react";
 import type { TAppointment } from "./types";
 import { AppointmentModal } from "./AppointmentModal";
-import { RemindicoCalling } from "./RemindicoCalling";
+import { PingifyCalling } from "./PingifyCalling";
 import { StartFreeModal } from "./StartFreeModal";
 import { useEventSourcing } from "./lib/useEventSourcing";
 import { createInitialAppointment, getRelevantTuesdayDate } from "./lib/lib";
@@ -99,7 +99,7 @@ export function Calendar() {
 
   return (
     <div className={styles.calendar}>
-      <RemindicoCalling isOpen={stage === 1} />
+      <PingifyCalling isOpen={stage === 1} />
       <AppointmentModal
         isOpen={stage !== 1}
         onSubmit={() => setStage(1)}
@@ -115,7 +115,7 @@ export function Calendar() {
         <div className={styles.container}>
           <div className={styles.header}>
             <img
-              className={styles.remindicoIcon}
+              className={styles.pingifyIcon}
               src={medicallIcon}
               alt="Pingify"
             />

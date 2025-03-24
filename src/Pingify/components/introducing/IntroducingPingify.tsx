@@ -1,9 +1,9 @@
 import Lottie from "lottie-react";
-import styles from "./IntroducingRemindico.module.scss";
+import styles from "./IntroducingPingify.module.scss";
 import video from "../../videos/introducinSection.mp4";
 import animation from "../../videos/logo-animation.json";
 
-export function IntroducingRemindico() {
+export function IntroducingPingify() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>

@@ -3,7 +3,7 @@ import { Faq } from "./components/faq/Faq";
 import { FormSection } from "./components/form/FormSection";
 import { HomeSection } from "./components/home/HomeSection";
 import { SeamlessIntegration } from "./components/integration/SeamlessIntegration";
-import { IntroducingRemindico } from "./components/introducing/IntroducingRemindico";
+import { IntroducingPingify } from "./components/introducing/IntroducingPingify";
 // import { ProductsSection } from "./components/products/ProductsSection";
 import { EasySetUpSection } from "./components/setUp/EasySetUpSection";
 
@@ -16,7 +16,7 @@ export function MainPage() {
       <SeamlessIntegration />
       <FormSection />
       <Faq />
-      <IntroducingRemindico />
+      <IntroducingPingify />
     </main>
   );
 }

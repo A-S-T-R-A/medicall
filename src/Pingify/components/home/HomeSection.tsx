@@ -2,7 +2,6 @@ import phoneIcon from "../../icons/greenPhoneIcon.svg";
 import starsIcon from "../../icons/starsIcon.svg";
 import arrowDownIcon from "../../icons/arrowDownIcon.svg";
 import outlineIcon from "../../icons/outlineIcon.svg";
-// import logoAnimation from "../../videos/logo_animation_remindico.json";
 import logoAnimation from "../../videos/logo-animation.json";
 import styles from "./HomeSection.module.scss";
 import { Video } from "./Video";
