@@ -1,4 +1,4 @@
-import { MainPage } from "./Remindico";
+import { MainPage } from "./Pingify";
 import "./App.css";
 
 function App() {
